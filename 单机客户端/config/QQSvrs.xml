@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<Server>
+<QQServer count="10" SuccessfulServerID="1" SuccessfulPort="443">
+<server1 ip="" Catalog="" host="61.152.88.252"/>
+<server2 ip="" Catalog="" host="61.152.88.247"/>
+<server3 ip="" Catalog="" host="61.152.88.243"/>
+<server4 ip="" Catalog="" host="61.152.88.235"/>
+<server5 ip="" Catalog="" host="114.80.103.54"/>
+<server6 ip="" Catalog="" host="183.62.127.179"/>
+<server7 ip="" Catalog="" host="183.62.127.217"/>
+<server8 ip="" Catalog="" host="183.62.127.239"/>
+<server9 ip="" Catalog="" host="183.62.127.236"/>
+<server10 ip="" Catalog="" host="183.62.127.238"/>
+</QQServer>
+<AuthServer count="5" SuccessfulServerID="1" SuccessfulPort="8000">
+<server1 ip="" Catalog="" host="219.133.41.46"/>
+<server2 ip="" Catalog="" host="219.133.41.180"/>
+<server3 ip="" Catalog="" host="58.251.62.105"/>
+<server4 ip="" Catalog="" host="218.30.73.91"/>
+<server5 ip="" Catalog="" host="authorsvr1.game.qq.com"/>
+<portlist count="3" port1="433" port2="8000" port3="8080"/>
+</AuthServer>
+</Server>

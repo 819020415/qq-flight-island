@@ -1,0 +1,38 @@
+# 根目录源码，开头的 / 表示只匹配根目录
+/当前服务端/
+/登录器源码/
+
+# 缓存和编辑器配置
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+
+# 日志和调试记录
+*.log
+card-calls-*.txt
+card-perf-*.txt
+
+# 旧备份
+*.bak
+*.backup
+*backup*
+
+# 已知临时压缩包
+game.zip
+game-dlls.zip
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 存档备份目录
+**/save-backups/
+
+# 暂不上传当前个人数据库
+/单机客户端/当前服务端/server-merged/data/game.db
+/单机客户端/当前服务端/server-merged/data/game.db-wal
+/单机客户端/当前服务端/server-merged/data/game.db-shm
+/单机客户端/当前服务端/server-merged/data/game.db-journal
+

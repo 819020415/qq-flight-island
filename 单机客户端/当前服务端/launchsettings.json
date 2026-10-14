@@ -1,0 +1,4 @@
+{
+  "client": "../game.exe",
+  "serverMode": "merged"
+}

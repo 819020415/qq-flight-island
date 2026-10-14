@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.32.20080530" ColorLib="">
+    <UIObject Type="Dialog" Name="Dialog_Main">
+        <Properties>
+            <Property Name="XOffset" Value="42" />
+            <Property Name="YOffset" Value="8" />
+            <Property Name="Width" Value="800" />
+            <Property Name="Height" Value="600" />
+            <Property Name="Visible" Value="true" />
+            <Property Name="Background" Value="ONEIMAGE:background.bmp?0,0,800,600;Tile;" />
+            <Property Name="CaptionHeight" Value="180" />
+            <Property Name="RegionSet" Value="FROMBGIMAGES:0xFF00FF" />
+            <Property Name="Icon" Value="Nana.ico" />
+            <Property Name="Caption" Value="QQ飞行岛" />
+            <Property Name="InitPosition" Value="center" />
+        </Properties>
+        <Children>
+            <UIObject Type="Container" Name="District_Container">
+                <Properties>
+                    <Property Name="XOffset" Value="422" />
+                    <Property Name="YOffset" Value="136" />
+                    <Property Name="Width" Value="373" />
+                    <Property Name="Height" Value="420" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Table" Name="Table_Svr">
+                        <Properties>
+                            <Property Name="XOffset" Value="93" />
+                            <Property Name="YOffset" Value="43" />
+                            <Property Name="Width" Value="254" />
+                            <Property Name="Height" Value="269" />
+                            <Property Name="IsVirtualMode" Value="true" />
+                            <Property Name="GridColor" Value="RGB:242,104,13" />
+                            <Property Name="HoverBackground" Value="ONEIMAGE:nana_hover.bmp;Tile;" />
+                            <Property Name="SelectBackground" Value="ONEIMAGE:nana_down.bmp;Tile;" />
+                            <Property Name="GridMode" Value="HoriGrid" />
+                            <Property Name="TextColor" Value="RGB:255,255,0" />
+                            <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                        </Properties>
+                        <Children>
+                            <UIObject Type="Container" Name="Container_svr">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="255" />
+                                    <Property Name="Height" Value="271" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="SignaledSwitch" Name="SignalSwitch1">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="0" />
+                                            <Property Name="YOffset" Value="0" />
+                                            <Property Name="Width" Value="0" />
+                                            <Property Name="Height" Value="0" />
+                                            <Property Name="SourceItem" Value="Excluder1" />
+                                            <Property Name="Adapter" Value="Button1:OverlapContainer1:Container1,Button2:OverlapContainer1:Container2" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="Container" Name="ButtonGroup">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="0" />
+                                            <Property Name="YOffset" Value="7" />
+                                            <Property Name="Width" Value="261" />
+                                            <Property Name="Height" Value="41" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="Excluder" Name="Excluder1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="0" />
+                                                    <Property Name="Width" Value="0" />
+                                                    <Property Name="Height" Value="0" />
+                                                    <Property Name="ExcludeItemList" Value="Button1,Button2" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="Button1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="6" />
+                                                    <Property Name="Width" Value="126" />
+                                                    <Property Name="Height" Value="41" />
+                                                    <Property Name="Background" Value="ONEIMAGE:ctc_svr_normal.tga?0,0,126,41;Tile;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:ctc_svr_hover.tga?0,0,126,41;Tile;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:ctc_svr_down.tga?0,0,126,41;Tile;" />
+                                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                                    <Property Name="Checked" Value="true" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="Button2">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="126" />
+                                                    <Property Name="YOffset" Value="6" />
+                                                    <Property Name="Width" Value="126" />
+                                                    <Property Name="Height" Value="41" />
+                                                    <Property Name="Background" Value="ONEIMAGE:cnc_svr_normal.tga?0,0,126,41;Tile;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:cnc_svr_hover.tga?0,0,126,41;Tile;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:cnc_svr_down.tga?0,0,126,41;Tile;" />
+                                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="OverlapContainer" Name="OverlapContainer1">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="0" />
+                                            <Property Name="YOffset" Value="73" />
+                                            <Property Name="Width" Value="256" />
+                                            <Property Name="Height" Value="197" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="Container" Name="Container1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="0" />
+                                                    <Property Name="Width" Value="256" />
+                                                    <Property Name="Height" Value="197" />
+                                                </Properties>
+                                                <Children>
+                                                    <UIObject Type="ListView" Name="ListView_Svr_dx">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="5" />
+                                                            <Property Name="YOffset" Value="2" />
+                                                            <Property Name="Width" Value="244" />
+                                                            <Property Name="Height" Value="190" />
+                                                        </Properties>
+                                                        <Children>
+                                                            <UIObject Type="ScrollView" Name="ScrollView1">
+                                                                <Properties>
+                                                                    <Property Name="XOffset" Value="0" />
+                                                                    <Property Name="YOffset" Value="2" />
+                                                                    <Property Name="Width" Value="244" />
+                                                                    <Property Name="Height" Value="188" />
+                                                                    <Property Name="VScrollImagePath" Value="v\" />
+                                                                    <Property Name="HasHScroll" Value="false" />
+                                                                    <Property Name="HScrollHeight" Value="18" />
+                                                                    <Property Name="VScrollWidth" Value="18" />
+                                                                    <Property Name="ScrollBarImagePostfixName" Value="bmp" />
+                                                                    <Property Name="ScrollBarAlwaysExist" Value="true" />
+                                                                </Properties>
+                                                                <Children />
+                                                            </UIObject>
+                                                            <UIObject Type="Header" Name="Header1">
+                                                                <Properties>
+                                                                    <Property Name="XOffset" Value="0" />
+                                                                    <Property Name="YOffset" Value="0" />
+                                                                    <Property Name="Width" Value="226" />
+                                                                    <Property Name="Height" Value="0" />
+                                                                </Properties>
+                                                                <Children />
+                                                            </UIObject>
+                                                            <UIObject Type="Table" Name="Table_dx">
+                                                                <Properties>
+                                                                    <Property Name="XOffset" Value="0" />
+                                                                    <Property Name="YOffset" Value="0" />
+                                                                    <Property Name="Width" Value="226" />
+                                                                    <Property Name="Height" Value="190" />
+                                                                    <Property Name="DotLineWidth" Value="0" />
+                                                                    <Property Name="GridColor" Value="RGB:242,104,13" />
+                                                                    <Property Name="HoverBackground" Value="ONEIMAGE:nana_hover.bmp;Tile;" />
+                                                                    <Property Name="SelectBackground" Value="ONEIMAGE:nana_down.bmp;Tile;" />
+                                                                    <Property Name="GridMode" Value="HoriGrid" />
+                                                                    <Property Name="TextColor" Value="RGB:255,255,0" />
+                                                                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                                                </Properties>
+                                                                <Children />
+                                                            </UIObject>
+                                                        </Children>
+                                                    </UIObject>
+                                                </Children>
+                                            </UIObject>
+                                            <UIObject Type="Container" Name="Container2">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="0" />
+                                                    <Property Name="Width" Value="256" />
+                                                    <Property Name="Height" Value="197" />
+                                                </Properties>
+                                                <Children>
+                                                    <UIObject Type="ListView" Name="ListView_Svr_wt">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="5" />
+                                                            <Property Name="YOffset" Value="2" />
+                                                            <Property Name="Width" Value="244" />
+                                                            <Property Name="Height" Value="190" />
+                                                        </Properties>
+                                                        <Children>
+                                                            <UIObject Type="ScrollView" Name="ScrollView1">
+                                                                <Properties>
+                                                                    <Property Name="XOffset" Value="0" />
+                                                                    <Property Name="YOffset" Value="2" />
+                                                                    <Property Name="Width" Value="244" />
+                                                                    <Property Name="Height" Value="188" />
+                                                                    <Property Name="VScrollImagePath" Value="v\" />
+                                                                    <Property Name="HasHScroll" Value="false" />
+                                                                    <Property Name="HScrollHeight" Value="18" />
+                                                                    <Property Name="VScrollWidth" Value="18" />
+                                                                    <Property Name="ScrollBarImagePostfixName" Value="bmp" />
+                                                                    <Property Name="ScrollBarAlwaysExist" Value="true" />
+                                                                </Properties>
+                                                                <Children />
+                                                            </UIObject>
+                                                            <UIObject Type="Header" Name="Header1">
+                                                                <Properties>
+                                                                    <Property Name="XOffset" Value="0" />
+                                                                    <Property Name="YOffset" Value="0" />
+                                                                    <Property Name="Width" Value="226" />
+                                                                    <Property Name="Height" Value="0" />
+                                                                </Properties>
+                                                                <Children />
+                                                            </UIObject>
+                                                            <UIObject Type="Table" Name="Table_wt">
+                                                                <Properties>
+                                                                    <Property Name="XOffset" Value="0" />
+                                                                    <Property Name="YOffset" Value="0" />
+                                                                    <Property Name="Width" Value="226" />
+                                                                    <Property Name="Height" Value="190" />
+                                                                    <Property Name="DotLineWidth" Value="0" />
+                                                                    <Property Name="GridColor" Value="RGB:242,104,13" />
+                                                                    <Property Name="HoverBackground" Value="ONEIMAGE:nana_hover.bmp;Tile;" />
+                                                                    <Property Name="SelectBackground" Value="ONEIMAGE:nana_down.bmp;Tile;" />
+                                                                    <Property Name="GridMode" Value="HoriGrid" />
+                                                                    <Property Name="TextColor" Value="RGB:255,255,0" />
+                                                                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                                                </Properties>
+                                                                <Children />
+                                                            </UIObject>
+                                                        </Children>
+                                                    </UIObject>
+                                                </Children>
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                        </Children>
+                    </UIObject>
+                    <UIObject Type="Button" Name="Button_Select">
+                        <Properties>
+                            <Property Name="XOffset" Value="113" />
+                            <Property Name="YOffset" Value="318" />
+                            <Property Name="Width" Value="206" />
+                            <Property Name="Height" Value="63" />
+                            <Property Name="Background" Value="ONEIMAGE:button normal.BMP?0,0,207,65;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:button hover.BMP?0,0,207,65;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:button normal.BMP?0,0,207,65;Tile;" />
+                            <Property Name="DefaultButton" Value="true" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Table" Name="Table_Dis">
+                        <Properties>
+                            <Property Name="XOffset" Value="127" />
+                            <Property Name="YOffset" Value="86" />
+                            <Property Name="Width" Value="224" />
+                            <Property Name="Height" Value="214" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="Alpha" Value="0" />
+                            <Property Name="GridLineWidth" Value="0" />
+                            <Property Name="HoverBackground" Value="ONEIMAGE:nana_hover.bmp;Tile;" />
+                            <Property Name="SelectBackground" Value="ONEIMAGE:nana_down.bmp;Tile;" />
+                            <Property Name="GridMode" Value="NoGrid" />
+                            <Property Name="TextColor" Value="RGB:255,255,0" />
+                            <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Button_Dis_Exit">
+                        <Properties>
+                            <Property Name="XOffset" Value="157" />
+                            <Property Name="YOffset" Value="208" />
+                            <Property Name="Width" Value="82" />
+                            <Property Name="Height" Value="35" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="Background" Value="ONEIMAGE:nana_cancel.bmp?0,0,81,35;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:nana_cancel.bmp?81,0,162,35;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:nana_cancel.bmp?162,0,243,35;Tile;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="ToolTip" Name="ToolTip_Sev">
+                        <Properties>
+                            <Property Name="XOffset" Value="123" />
+                            <Property Name="YOffset" Value="71" />
+                            <Property Name="Width" Value="227" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="Background" Value="ONEIMAGE:sev_title.bmp;Tile;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="ToolTip" Name="ToolTip_Sel">
+                        <Properties>
+                            <Property Name="XOffset" Value="8" />
+                            <Property Name="YOffset" Value="7" />
+                            <Property Name="Width" Value="0" />
+                            <Property Name="Height" Value="0" />
+                            <Property Name="Background" Value="ONEIMAGE:Background_02.BMP;Tile;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="Button" Name="Button_Quit">
+                <Properties>
+                    <Property Name="XOffset" Value="766" />
+                    <Property Name="YOffset" Value="69" />
+                    <Property Name="Width" Value="27" />
+                    <Property Name="Height" Value="27" />
+                    <Property Name="Background" Value="ONEIMAGE:Close normal.BMP?0,0,27,27;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Close hover.BMP?0,0,27,27;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Close down.BMP?0,0,27,27;Tile;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="ToolTip" Name="ToolTip">
+                <Properties>
+                    <Property Name="XOffset" Value="366" />
+                    <Property Name="YOffset" Value="244" />
+                    <Property Name="Width" Value="20" />
+                    <Property Name="Height" Value="23" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Background" Value="COLOR:0x80ffff;" />
+                    <Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;3;2;1;2;宋体" />
+                    <Property Name="MinWidth" Value="100" />
+                    <Property Name="MinHeight" Value="20" />
+                    <Property Name="IsGlobalTip" Value="true" />
+                    <Property Name="FadeInTime" Value="800" />
+                    <Property Name="FadeOutTime" Value="800" />
+                    <Property Name="Margins" Value="2,2,2,2" />
+                    <Property Name="AutoSize" Value="true" />
+                    <Property Name="MaxWidth" Value="150" />
+                    <Property Name="ShowTime" Value="4000" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="ToolTip" Name="ToolTip_Notify">
+                <Properties>
+                    <Property Name="XOffset" Value="312" />
+                    <Property Name="YOffset" Value="255" />
+                    <Property Name="Width" Value="93" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Background" Value="NONE:" />
+                    <Property Name="MinWidth" Value="50" />
+                    <Property Name="MinHeight" Value="10" />
+                    <Property Name="IsGlobalTip" Value="true" />
+                    <Property Name="Margins" Value="2,2,2,2" />
+                    <Property Name="AutoSize" Value="true" />
+                    <Property Name="MaxWidth" Value="180" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Container" Name="Login_Container">
+                <Properties>
+                    <Property Name="XOffset" Value="404" />
+                    <Property Name="YOffset" Value="134" />
+                    <Property Name="Width" Value="395" />
+                    <Property Name="Height" Value="403" />
+                    <Property Name="Background" Value="ONEIMAGE:load_back.bmp;Tile;" />
+                    <Property Name="PostType" Value="MiddleMiddle" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Button" Name="Button_Login">
+                        <Properties>
+                            <Property Name="XOffset" Value="118" />
+                            <Property Name="YOffset" Value="323" />
+                            <Property Name="Width" Value="107" />
+                            <Property Name="Height" Value="65" />
+                            <Property Name="Background" Value="ONEIMAGE:Ok normal.BMP?0,0,107,65;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Ok hover.BMP?0,0,107,65;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Ok down.BMP?0,0,107,65;Tile;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Button_Back_Dis">
+                        <Properties>
+                            <Property Name="XOffset" Value="252" />
+                            <Property Name="YOffset" Value="323" />
+                            <Property Name="Width" Value="107" />
+                            <Property Name="Height" Value="65" />
+                            <Property Name="Background" Value="ONEIMAGE:Cancel normal.BMP?0,0,107,65;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Cancel hover.BMP?0,0,107,65;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Cancel down.BMP?0,0,107,65;Tile;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Edit" Name="Uin_Edit">
+                        <Properties>
+                            <Property Name="XOffset" Value="188" />
+                            <Property Name="YOffset" Value="95" />
+                            <Property Name="Width" Value="159" />
+                            <Property Name="Height" Value="23" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="TextColor" Value="RGB:255,255,255" />
+                            <Property Name="LogFont" Value="-20;0;0;0;700;0;0;0;0;1;2;1;34;System" />
+                            <Property Name="HasBorder" Value="false" />
+                            <Property Name="Number" Value="true" />
+                            <Property Name="MaxCharaters" Value="10" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Edit" Name="Password_Edit">
+                        <Properties>
+                            <Property Name="XOffset" Value="193" />
+                            <Property Name="YOffset" Value="208" />
+                            <Property Name="Width" Value="153" />
+                            <Property Name="Height" Value="13" />
+                            <Property Name="TextColor" Value="RGB:255,255,255" />
+                            <Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;1;2;1;34;System" />
+                            <Property Name="HasBorder" Value="false" />
+                            <Property Name="Password" Value="true" />
+                            <Property Name="TabStop" Value="true" />
+                            <Property Name="MaxCharaters" Value="16" />
+                            <Property Name="CaretColor" Value="RGB:255,255,255" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="CheckBox" Name="CheckBox_RemUin">
+                        <Properties>
+                            <Property Name="XOffset" Value="184" />
+                            <Property Name="YOffset" Value="242" />
+                            <Property Name="Width" Value="29" />
+                            <Property Name="Height" Value="29" />
+                            <Property Name="ImageChecked" Value="note on normal.BMP" />
+                            <Property Name="Checked" Value="true" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="ComboBox" Name="ComboBox_Uin">
+                        <Properties>
+                            <Property Name="XOffset" Value="187" />
+                            <Property Name="YOffset" Value="150" />
+                            <Property Name="Width" Value="163" />
+                            <Property Name="Height" Value="35" />
+                            <Property Name="TextColor" Value="RGB:255,255,255" />
+                            <Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;1;2;1;34;System" />
+                            <Property Name="ListBoxBackground" Value="COLOR:RGB:253,121,2;" />
+                            <Property Name="HasBorder" Value="false" />
+                            <Property Name="BorderColor" Value="RGB:0,0,0" />
+                            <Property Name="ButtonBg" Value="ONEIMAGE:nana_combox_normal.bmp;Tile;" />
+                            <Property Name="ButtonBgHover" Value="ONEIMAGE:nana_combox_hover.bmp;Tile;" />
+                            <Property Name="ButtonBgPressed" Value="ONEIMAGE:nana_combox_down.bmp;Tile;" />
+                            <Property Name="Number" Value="true" />
+                            <Property Name="ButtonWidth" Value="27" />
+                            <Property Name="ButtonHeight" Value="22" />
+                            <Property Name="TabStop" Value="true" />
+                            <Property Name="MaxCharaters" Value="12" />
+                            <Property Name="CaretColor" Value="RGB:255,255,255" />
+                            <Property Name="PostType" Value="MiddleMiddle" />
+                            <Property Name="ListBoxAutoWidth" Value="true" />
+                            <Property Name="EditXOffset" Value="6" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Button_Fcm">
+                        <Properties>
+                            <Property Name="XOffset" Value="118" />
+                            <Property Name="YOffset" Value="277" />
+                            <Property Name="Width" Value="67" />
+                            <Property Name="Height" Value="32" />
+                            <Property Name="Background" Value="ONEIMAGE:Indulge normal.BMP;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Indulge hover.BMP;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Indulge down.BMP;Tile;" />
+                            <Property Name="URL" Value="http://fcm.qq.com/" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Button_Wjmm">
+                        <Properties>
+                            <Property Name="XOffset" Value="204" />
+                            <Property Name="YOffset" Value="277" />
+                            <Property Name="Width" Value="62" />
+                            <Property Name="Height" Value="32" />
+                            <Property Name="Background" Value="ONEIMAGE:password normal.BMP;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:password hover.BMP;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:password down.BMP;Tile;" />
+                            <Property Name="URL" Value="https://account.qq.com/" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Button_Zchm">
+                        <Properties>
+                            <Property Name="XOffset" Value="282" />
+                            <Property Name="YOffset" Value="277" />
+                            <Property Name="Width" Value="75" />
+                            <Property Name="Height" Value="32" />
+                            <Property Name="Background" Value="ONEIMAGE:number normal.BMP;Tile;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:number hover.BMP;Tile;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:number down.BMP;Tile;" />
+                            <Property Name="URL" Value="http://freeqqm.qq.com/" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="CheckBox" Name="CheckBox_Mode">
+                        <Properties>
+                            <Property Name="XOffset" Value="311" />
+                            <Property Name="YOffset" Value="244" />
+                            <Property Name="Width" Value="29" />
+                            <Property Name="Height" Value="28" />
+                            <Property Name="ImageChecked" Value="note on normal.BMP" />
+                            <Property Name="Checked" Value="true" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="Static" Name="Static_Version">
+                <Properties>
+                    <Property Name="XOffset" Value="706" />
+                    <Property Name="YOffset" Value="128" />
+                    <Property Name="Width" Value="61" />
+                    <Property Name="Height" Value="15" />
+                    <Property Name="TextColor" Value="RGB:243,118,75" />
+                    <Property Name="Caption" Value="2.0.0" />
+                    <Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;1;2;1;34;System" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="WebBrowser" Name="WebBrowser_R2">
+                <Properties>
+                    <Property Name="XOffset" Value="59" />
+                    <Property Name="YOffset" Value="189" />
+                    <Property Name="Width" Value="448" />
+                    <Property Name="Height" Value="348" />
+                    <Property Name="URL" Value="http://nana.qq.com/act/a20080417qqlogin/in_news.htm?ADTAG=GameClient.ClientLogin.minihomepage.0 " />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button_guanwang">
+                <Properties>
+                    <Property Name="XOffset" Value="406" />
+                    <Property Name="YOffset" Value="54" />
+                    <Property Name="Width" Value="57" />
+                    <Property Name="Height" Value="77" />
+                    <Property Name="Background" Value="ONEIMAGE:Navigation normal_01.BMP;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Navigation hover_01.BMP;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Navigation down_01.BMP;Tile;" />
+                    <Property Name="URL" Value="http://nana.qq.com/?ADTAG=GameClient.ClientLogin.button.b1 " />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button_newuser">
+                <Properties>
+                    <Property Name="XOffset" Value="462" />
+                    <Property Name="YOffset" Value="54" />
+                    <Property Name="Width" Value="58" />
+                    <Property Name="Height" Value="80" />
+                    <Property Name="Background" Value="ONEIMAGE:Navigation normal_02.BMP;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Navigation hover_02.BMP;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Navigation down_02.BMP;Tile;" />
+                    <Property Name="URL" Value="http://nana.qq.com/act/a20070726intro/new.htm?ADTAG=GameClient.ClientLogin.button.b2" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button_qb">
+                <Properties>
+                    <Property Name="XOffset" Value="520" />
+                    <Property Name="YOffset" Value="54" />
+                    <Property Name="Width" Value="57" />
+                    <Property Name="Height" Value="77" />
+                    <Property Name="Background" Value="ONEIMAGE:Navigation normal_03.BMP;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Navigation hover_03.BMP;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Navigation down_03.BMP;Tile;" />
+                    <Property Name="URL" Value="http://pay.qq.com/zft/paycenter_qb.shtml" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button_custom">
+                <Properties>
+                    <Property Name="XOffset" Value="576" />
+                    <Property Name="YOffset" Value="54" />
+                    <Property Name="Width" Value="60" />
+                    <Property Name="Height" Value="79" />
+                    <Property Name="Background" Value="ONEIMAGE:Navigation normal_04.BMP;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Navigation hover_04.BMP;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Navigation down_04.BMP;Tile;" />
+                    <Property Name="URL" Value="http://nana.qq.com/market/index.shtml" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button_cs">
+                <Properties>
+                    <Property Name="XOffset" Value="633" />
+                    <Property Name="YOffset" Value="54" />
+                    <Property Name="Width" Value="59" />
+                    <Property Name="Height" Value="77" />
+                    <Property Name="Background" Value="ONEIMAGE:Navigation normal_05.BMP;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Navigation hover_05.BMP;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Navigation down_05.BMP;Tile;" />
+                    <Property Name="URL" Value="http://gcs.qq.com/gcs/" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button_bbs">
+                <Properties>
+                    <Property Name="XOffset" Value="692" />
+                    <Property Name="YOffset" Value="54" />
+                    <Property Name="Width" Value="59" />
+                    <Property Name="Height" Value="76" />
+                    <Property Name="Background" Value="ONEIMAGE:Navigation normal_06.BMP;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Navigation hover_06.BMP;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Navigation down_06.BMP;Tile;" />
+                    <Property Name="URL" Value="http://gamebbs.qq.com/bbs/flyislandhtm/30524.htm" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

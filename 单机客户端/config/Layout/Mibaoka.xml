@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="GB2312"?>
+<TenioUILayout Version="V1.12.20070727">
+	<UIObject Type="Dialog" Name="Dialog_Mibaoka">
+		<Properties>
+			<Property Name="XOffset" Value="196"/>
+			<Property Name="YOffset" Value="162"/>
+			<Property Name="Width" Value="343"/>
+			<Property Name="Height" Value="220"/>
+			<Property Name="Background" Value="ONEIMAGE:mibao.bmp;Tile;"/>
+			<Property Name="InitPosition" Value="center"/>
+		</Properties>
+		<Children>
+			<UIObject Type="Edit" Name="Edit_Number">
+				<Properties>
+					<Property Name="XOffset" Value="164"/>
+					<Property Name="YOffset" Value="102"/>
+					<Property Name="Width" Value="98"/>
+					<Property Name="Height" Value="16"/>
+					<Property Name="TextColor" Value="0xffffff"/>
+					<Property Name="HasBorder" Value="false"/>
+					<Property Name="BorderColor" Value="0xffffff"/>
+					<Property Name="Number" Value="true"/>
+					<Property Name="MaxCharaters" Value="10"/>
+					<Property Name="CaretColor" Value="0xffffff"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+			<UIObject Type="Button" Name="Button_Web">
+				<Properties>
+					<Property Name="XOffset" Value="193"/>
+					<Property Name="YOffset" Value="128"/>
+					<Property Name="Width" Value="84"/>
+					<Property Name="Height" Value="18"/>
+					<Property Name="Alpha" Value="0"/>
+					<Property Name="URL" Value="https://mibaoka.qq.com"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+			<UIObject Type="Button" Name="Button_OK">
+				<Properties>
+					<Property Name="XOffset" Value="72"/>
+					<Property Name="YOffset" Value="154"/>
+					<Property Name="Width" Value="96"/>
+					<Property Name="Height" Value="22"/>
+					<Property Name="Background" Value="ONEIMAGE:Continue_u.bmp?97,0,192,22;Tile;"/>
+					<Property Name="BackgroundHover" Value="ONEIMAGE:Continue_u.bmp?0,0,96,22;Tile;"/>
+					<Property Name="BackgroundPressed" Value="ONEIMAGE:Continue_u.bmp?0,0,96,22;Tile;"/>
+					<Property Name="DefaultButton" Value="true"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+			<UIObject Type="Button" Name="Button_Cancel">
+				<Properties>
+					<Property Name="XOffset" Value="189"/>
+					<Property Name="YOffset" Value="154"/>
+					<Property Name="Width" Value="95"/>
+					<Property Name="Height" Value="21"/>
+					<Property Name="Background" Value="ONEIMAGE:CancelMBK_u.bmp?0,0,96,22;Tile;"/>
+					<Property Name="BackgroundHover" Value="ONEIMAGE:CancelMBK_u.bmp?97,0,192,22;Tile;"/>
+					<Property Name="BackgroundPressed" Value="ONEIMAGE:CancelMBK_u.bmp?97,0,192,22;Tile;"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+			<UIObject Type="Static" Name="Static_1">
+				<Properties>
+					<Property Name="XOffset" Value="163"/>
+					<Property Name="YOffset" Value="72"/>
+					<Property Name="Width" Value="32"/>
+					<Property Name="Height" Value="16"/>
+					<Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;3;2;1;2;宋体"/>
+					<Property Name="AlignMode" Value="CENTER"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+			<UIObject Type="Static" Name="Static_2">
+				<Properties>
+					<Property Name="XOffset" Value="200"/>
+					<Property Name="YOffset" Value="72"/>
+					<Property Name="Width" Value="30"/>
+					<Property Name="Height" Value="16"/>
+					<Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;3;2;1;2;宋体"/>
+					<Property Name="AlignMode" Value="CENTER"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+			<UIObject Type="Static" Name="Static_3">
+				<Properties>
+					<Property Name="XOffset" Value="240"/>
+					<Property Name="YOffset" Value="72"/>
+					<Property Name="Width" Value="30"/>
+					<Property Name="Height" Value="16"/>
+					<Property Name="LogFont" Value="-16;0;0;0;700;0;0;0;0;3;2;1;2;宋体"/>
+					<Property Name="AlignMode" Value="CENTER"/>
+				</Properties>
+				<Children/>
+	</UIObject>
+		</Children>
+	</UIObject>
+</TenioUILayout>
